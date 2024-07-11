@@ -174,3 +174,35 @@ poetry.toml
 pyrightconfig.json
 
 # End of https://www.toptal.com/developers/gitignore/api/python
+
+
+# Ignorar arquivos de áudio
+*.wav
+*.mp3
+*.aac
+*.flac
+*.ogg
+*.m4a
+
+# Ignorar arquivos de vídeo
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.flv
+*.wmv
+*.mpeg
+
+# Ignorar arquivos temporários de áudio e vídeo
+chunk*.wav
+
+# Outras entradas comuns de .gitignore
+*.log
+*.tmp
+*.swp
+__pycache__/
+*.pyc
+.env
+.vscode/
+.idea/
+.DS_Store
