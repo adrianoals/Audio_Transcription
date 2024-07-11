@@ -14,6 +14,7 @@ def extract_audio_from_video(video_path, audio_path):
     video = mp.VideoFileClip(video_path)
     video.audio.write_audiofile(audio_path)
 
+
 def audio_to_text(audio_path):
     recognizer = sr.Recognizer()
     audio = AudioSegment.from_file(audio_path)
@@ -27,6 +28,7 @@ def audio_to_text(audio_path):
 if __name__ == "__main__":
     video_path = "4 - Painel de controle do Supabase.mp4"
     audio_path = "extraido_audio.wav"
+    
     
     # Extrair áudio do vídeo
     extract_audio_from_video(video_path, audio_path)
