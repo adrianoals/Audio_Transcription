@@ -26,7 +26,7 @@ def audio_to_text(audio_path):
         return text
 
 if __name__ == "__main__":
-    video_path = "4 - Painel de controle do Supabase.mp4"
+    video_path = "1 - O que é Supabase.mp4"
     audio_path = "extraido_audio.wav"
     
     
