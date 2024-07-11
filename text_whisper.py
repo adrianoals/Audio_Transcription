@@ -9,7 +9,7 @@ import os
 modelo = whisper.load_model("base")
 
 # Caminho para o arquivo de áudio
-audio_path = "caminho/para/seu_audio.wav"  # Substitua pelo caminho do seu arquivo de áudio
+audio_path = "audioExtract/extraido_audio.wav"  # Substitua pelo caminho do seu arquivo de áudio
 
 # Transcrever o arquivo de áudio
 print("Transcrevendo áudio, isso pode levar algum tempo...")
