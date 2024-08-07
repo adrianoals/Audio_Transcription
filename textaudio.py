@@ -1,4 +1,5 @@
 # pip install git+https://github.com/openai/whisper.git
+# https://www.youtube.com/watch?v=JR36oH35Fgg
 # pip install torch
 # brew install ffmpeg
 
@@ -9,7 +10,7 @@ import os
 modelo = whisper.load_model("medium")
 
 # Caminho para o arquivo de áudio
-audio_path = "videoExtract/video.MOV"  # Substitua pelo caminho do seu arquivo de áudio
+audio_path = "audioExtract/video.mp4"  # Substitua pelo caminho do seu arquivo de áudio
 
 # Transcrever o arquivo de áudio
 print("Transcrevendo áudio, isso pode levar algum tempo...")
@@ -27,4 +28,3 @@ with open(output_file, "w", encoding="utf-8") as f:
     f.write(resposta["text"])
 
 print(f"Transcrição concluída e salva em {output_file}")
-
