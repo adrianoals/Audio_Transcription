@@ -1,4 +1,4 @@
-# Extract_Audio
+# Extract_Audio_Text
 
 Este é um script em Python que extrai o áudio de um arquivo de vídeo ou áudio e realiza a transcrição do conteúdo falado usando o modelo [Whisper](https://github.com/openai/whisper) da OpenAI. O script gera um arquivo de texto com o resultado da transcrição.
 
