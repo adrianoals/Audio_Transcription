@@ -48,7 +48,7 @@ cd <directory-name>
 3. Run the script to start the transcription:
 
 ```bash
-python transcricao.py
+python main.py
 ```
 
 The script will load the Whisper model, transcribe the audio, and save the transcription in a text file located in the `textExtract/transcricao.txt` directory.
