@@ -1,4 +1,4 @@
-# Audio Transcription with Whisper
+# Audio Transcription
 
 This is a Python script that extracts audio from a video or audio file and transcribes the spoken content using the [Whisper](https://github.com/openai/whisper) model from OpenAI. The script generates a text file with the transcription result.
 
