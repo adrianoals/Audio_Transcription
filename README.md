@@ -60,7 +60,7 @@ O script irá carregar o modelo Whisper, transcrever o áudio e salvar a transcr
 No script fornecido, o caminho para o arquivo de áudio é especificado da seguinte forma:
 
 ```python
-audio_path = "videoExtract/WhatsApp Audio 2024-10-05 at 10.22.24.ogg"
+audio_path = "videoExtract/videoExtract/nome_do_arquivo"
 ```
 
 Altere esse caminho para o arquivo de áudio ou vídeo que deseja transcrever.
